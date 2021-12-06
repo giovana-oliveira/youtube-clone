@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <header>
+      <img
+        id="nav-toggle"
+        src="images/nav-toggle.svg"
+        alt="Navigation bar toggle button"
+      />
+      <a href="https://youtube.com"
+        ><img
+          id="youtube-logo"
+          src="images/youtube-logo.svg"
+          alt="Youtube logo"
+          width="120"
+          height="30"
+      /></a>
+      <br />
+      <div id="search">
+        <input type="search" placeholder="Search" />
+        <button>
+          <img src="images/search.png" alt="Search button" />
+        </button>
+      </div>
+      <div id="menu">
+        <img
+          id="create-btn"
+          src="images/create.png"
+          alt="Create content button"
+        />
+        <img
+          id="youtube-apps-btn"
+          src="images/youtube-apps.png"
+          alt="Youtube Apps button"
+        />
+        <img
+          id="user-notifications-btn"
+          src="images/notifications.png"
+          alt="User notifications button"
+        />
+        <img
+          id="avatar-btn"
+          src="images/user-avatar.png"
+          alt="User's avatar image"
+        />
+      </div>
+    </header>
+    <main>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/aWzKb071D9o"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <div id="video-info">
+        <h2>Em busca da casa automática #1? - Minecraft Aventura</h2>
+        <span id="view-count">9,506,434 views</span>
+        <div id="info-menu">
+          <span id="like-video-btn"
+            ><img src="images/like.png" alt="Like button" /><span
+              id="like-video-count"
+              >524K</span
+            ></span
+          >
+          <span id="dislike-video-btn">
+            <img src="images/dislike.png" alt="Dislike button" /> Dislike</span
+          >
+          <span id="share-video-btn">
+            <img src="images/share.png" alt="Share button" /> Share</span
+          >
+          <span id="save-video-btn">
+            <img src="images/save.png" alt="Save to playlist button" />
+            Save</span
+          >
+          <span id="more-btn">
+            <img src="images/more.png" alt="More button" />
+          </span>
+        </div>
+      </div>
+      <div id="description">
+        <div id="channel-info">
+          <a
+            id="channel-link"
+            href="https://www.youtube.com/channel/UCiIZY89KwQkxAW-4Le7U7zg"
+            ><img
+              src="images/channel-avatar.jpg"
+              alt="viniccius13's channel avatar image"
+            />
+            viniccius13
+          </a>
+          <img
+            src="images/verified.svg"
+            alt="Verified symbol"
+            width="14"
+            height="14"
+          />
+          <br />
+          <span id="sub-count">5.5M subscribers</span>
+          <div id="channel-info-menu">
+            <button id="join-btn">JOIN</button>
+            <button id="sub-btn">SUBSCRIBED</button>
+            <img
+              id="channel-notifications-btn"
+              src="images/notifications.png"
+              alt="Channel notifications button"
+            />
+          </div>
+        </div>
+        <br />
+        <div id="description-text">
+          <span>
+            + Episódios:
+            <a href="https://www.youtube.com/playlist?list=PLD40851E0E52E9080"
+              >http://www.youtube.com/playlist?featu...</a
+            >
+            <br />
+            <br />
+            CLIQUE PARA TWEETAR:
+            <a href="http://clicktotweet.com/RP96A"
+              >http://clicktotweet.com/RP96A</a
+            >
+          </span>
+          <br />
+          <br />
+          <a href="#">SHOW MORE</a>
+        </div>
+      </div>
+    </main>
+    <br />
+    <aside id="recommended-list">
+      <div class="recommended">
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+      </div>
+      <div class="recommended">
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+      </div>
+      <div class="recommended">
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+      </div>
+      <div class="recommended">
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+      </div>
+      <div class="recommended">
+        <img src="images/thumb.png" alt="Video thumbnail image" />
+      </div>
+      <a href="#">SHOW MORE</a>
+    </aside>
+    <br />
+    <div id="comment-section">
+      <span id="comment-count"> 40,357 Comments </span>
+      <br />
+      <br />
+      <div id="sort-btn">
+        <img src="images/sort.png" alt="Sort comments button" />
+        <br />
+        <br />
+        <a href="#">SORT BY</a>
+      </div>
+      <br />
+      <img
+        src="images/user-avatar.png"
+        alt="User's avatar image"
+        width="40"
+        height="40"
+      />
+      <br />
+      <input
+        id="add-comment"
+        type="text"
+        placeholder="Add a public comment..."
+      />
+      <div class="comment">
+        <img
+          src="images/user-avatar.png"
+          alt="User's avatar image"
+          width="40px"
+          height="40px"
+        />
+        <h3 class="comment-username">
+          Beatriz Domingos
+          <a href="#" class="comment-date">8 months ago</a>
+        </h3>
+        <p class="comment-text">
+          No dia 4 de junho de 2013 nasceu a melhor série do YouTube ❤️
+        </p>
+        <div class="comment-menu">
+          <span class="like-comment-btn">
+            <img
+              src="images/like.png"
+              alt="Like button"
+              width="16px"
+              height="16px"
+            />
+          </span>
+          <br />
+          <br />
+          <span class="like-comment-count">1K</span>
+          <br />
+          <br />
+          <span class="dislike-comment-btn"
+            ><img
+              src="images/dislike.png"
+              alt="Dislike button"
+              width="16px"
+              height="16px"
+          /></span>
+          <a href="#">REPLY</a>
+          <br />
+          <a href="#">View all <span class="reply-count"></span> replies</a>
+        </div>
+      </div>
+      <div class="comment">
+        <img
+          src="images/user-avatar.png"
+          alt="User's avatar image"
+          width="40px"
+          height="40px"
+        />
+        <h3 class="comment-username">
+          Antonio Cezar
+          <a href="#" class="comment-date">1 year ago</a>
+        </h3>
+        <p class="comment-text">
+          No dia 4 de junho de 2013 nasceu a melhor série do YouTube ❤️
+        </p>
+        <div class="comment-menu">
+          <span class="like-comment-btn">
+            <img
+              src="images/like.png"
+              alt="Like button"
+              width="16px"
+              height="16px"
+            />
+          </span>
+          <br />
+          <br />
+          <span class="like-comment-count">1K</span>
+          <br />
+          <br />
+          <span class="dislike-comment-btn"
+            ><img
+              src="images/dislike.png"
+              alt="Dislike button"
+              width="16px"
+              height="16px"
+          /></span>
+          <a href="#">REPLY</a>
+          <br />
+          <a href="#">View all <span class="reply-count"></span> replies</a>
+        </div>
+      </div>
+      <div class="comment">
+        <img
+          src="images/user-avatar.png"
+          alt="User's avatar image"
+          width="40px"
+          height="40px"
+        />
+        <h3 class="comment-username">
+          Felipe Cunha
+          <a href="#" class="comment-date">2 months ago</a>
+        </h3>
+        <p class="comment-text">
+          No dia 4 de junho de 2013 nasceu a melhor série do YouTube ❤️
+        </p>
+        <div class="comment-menu">
+          <span class="like-comment-btn">
+            <img
+              src="images/like.png"
+              alt="Like button"
+              width="16px"
+              height="16px"
+            />
+          </span>
+          <br />
+          <br />
+          <span class="like-comment-count">1K</span>
+          <br />
+          <br />
+          <span class="dislike-comment-btn"
+            ><img
+              src="images/dislike.png"
+              alt="Dislike button"
+              width="16px"
+              height="16px"
+          /></span>
+          <a href="#">REPLY</a>
+          <br />
+          <a href="#">View all <span class="reply-count"></span> replies</a>
+        </div>
+      </div>
+      <div class="comment">
+        <img
+          src="images/user-avatar.png"
+          alt="User's avatar image"
+          width="40px"
+          height="40px"
+        />
+        <h3 class="comment-username">
+          Henrique Souza
+          <a href="#" class="comment-date">6 months ago</a>
+        </h3>
+        <p class="comment-text">
+          No dia 4 de junho de 2013 nasceu a melhor série do YouTube ❤️
+        </p>
+        <div class="comment-menu">
+          <span class="like-comment-btn">
+            <img
+              src="images/like.png"
+              alt="Like button"
+              width="16px"
+              height="16px"
+            />
+          </span>
+          <br />
+          <br />
+          <span class="like-comment-count">1K</span>
+          <br />
+          <br />
+          <span class="dislike-comment-btn"
+            ><img
+              src="images/dislike.png"
+              alt="Dislike button"
+              width="16px"
+              height="16px"
+          /></span>
+          <a href="#">REPLY</a>
+          <br />
+          <a href="#">View all <span class="reply-count"></span> replies</a>
+        </div>
+      </div>
+      <div class="comment">
+        <img
+          src="images/user-avatar.png"
+          alt="User's avatar image"
+          width="40px"
+          height="40px"
+        />
+        <h3 class="comment-username">
+          Karol Lopes
+          <a href="#" class="comment-date">4 months ago</a>
+        </h3>
+        <p class="comment-text">
+          No dia 4 de junho de 2013 nasceu a melhor série do YouTube ❤️
+        </p>
+        <div class="comment-menu">
+          <span class="like-comment-btn">
+            <img
+              src="images/like.png"
+              alt="Like button"
+              width="16px"
+              height="16px"
+            />
+          </span>
+          <br />
+          <br />
+          <span class="like-comment-count">1K</span>
+          <br />
+          <br />
+          <span class="dislike-comment-btn"
+            ><img
+              src="images/dislike.png"
+              alt="Dislike button"
+              width="16px"
+              height="16px"
+          /></span>
+          <a href="#">REPLY</a>
+          <br />
+          <a href="#">View all <span class="reply-count"></span> replies</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
